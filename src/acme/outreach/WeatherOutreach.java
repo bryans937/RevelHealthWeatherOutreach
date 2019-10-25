@@ -12,6 +12,13 @@ import java.util.HashMap;
 
 import com.google.gson.*;
 
+/**
+ * A simple class that will gather the weather forecast for the next 5 days in Minneapolis from openweathermap.org,
+ * and using a set of criteria will determine the best way of reaching out to potential customers for those days.
+ *
+ * Based on a Revel Health Software Engineer practical exercise / coding assessment.
+ * @author Bryan Simpson, date 10/25/2019.
+ */
 public class WeatherOutreach {
 
     // API key to connect to OpenWeatherMap
